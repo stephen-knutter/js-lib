@@ -43,4 +43,18 @@ npm publish
 
 # Beta version
 # Update `package.json` version field ex) 1.1.0 -> 1.4.0-beta.0
+git add -A
+git commit -m "update beta"
+git tag 1.4.0-beta.0
+git push
+git push --tags
+npm publish --tag beta
+```
+
+```shell
+# Semantic release
+
+npm i -g semantic-release-cli
+semantic-release-cli setup
+
 ```

@@ -1,16 +1,31 @@
 {
   "name": "javascript-open-source-library",
-  "version": "1.4.0-beta.0",
+  "version": "0.0.0-development",
   "description": "demo js lib",
   "main": "src/index.js",
-  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "commit": "git-cz",
+    "test": "mocha src/index.test.js -w",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "keywords": [],
   "author": "steve-o <example@email.com> (http://example.com/)",
   "license": "MIT",
   "dependencies": {
     "unique-random-array": "3.0.0"
+  },
+  "devDependencies": {
+    "chai": "5.1.1",
+    "commitizen": "4.3.0",
+    "cz-conventional-changelog": "3.3.0",
+    "mocha": "10.4.0",
+    "semantic-release": "23.0.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stephen-knutter/js-lib.git"
+  },
+  "czConfig": {
+    "path": "node_modules/cz-conventional-changelog"
   }
 }
