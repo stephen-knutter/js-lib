@@ -54,7 +54,6 @@ npm publish --tag beta
 ```shell
 # Semantic release
 
-npm i -g semantic-release-cli
-semantic-release-cli setup
+# Update `package.json` version field to 0.0.0-semantically-released
 
 ```

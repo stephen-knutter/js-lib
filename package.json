@@ -1,6 +1,6 @@
 {
   "name": "javascript-open-source-library",
-  "version": "0.0.0-development",
+  "version": "0.0.0-semantically-released",
   "description": "demo js lib",
   "main": "src/index.js",
   "scripts": {
