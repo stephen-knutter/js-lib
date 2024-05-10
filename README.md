@@ -30,4 +30,17 @@ npm info javascript-open-source-library
 
 git tag 1.0.0
 git push --tags 
+
+# Update version
+
+# Update `package.json` version field ex) 1.0.0 -> 1.1.0
+git add -A
+git commit -m "update"
+git tag 1.1.0
+git push
+git push --tags
+npm publish
+
+# Beta version
+# Update `package.json` version field ex) 1.1.0 -> 1.4.0-beta.0
 ```
