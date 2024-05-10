@@ -1,5 +1,6 @@
 # js-lib
 
+
 ```shell
 # NPM package setup
 
@@ -13,4 +14,20 @@ cat ~/.npmrc
 npm set save-exact true
 
 npm adduser
+```
+
+
+```shell
+# NPM package publish
+
+npm publish
+
+npm info javascript-open-source-library
+```
+
+```shell
+# Versioning
+
+git tag 1.0.0
+git push --tags 
 ```
