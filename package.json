@@ -1,12 +1,12 @@
 {
   "name": "javascript-open-source-library",
-  "version": "0.0.0-semantically-released",
+  "version": "1.5.0",
   "description": "demo js lib",
   "main": "src/index.js",
   "scripts": {
     "commit": "git-cz",
     "test": "mocha src/index.test.js -w",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+    "semantic-release": "semantic-release --branches main && npm publish"
   },
   "keywords": [],
   "author": "steve-o <example@email.com> (http://example.com/)",
