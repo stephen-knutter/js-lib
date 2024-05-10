@@ -1,0 +1,16 @@
+{
+  "name": "javascript-open-source-library",
+  "version": "1.0.0",
+  "description": "demo js lib",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "steve-o <example@email.com> (http://example.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "unique-random-array": "3.0.0"
+  }
+}
